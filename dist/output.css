@@ -591,10 +591,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: column;
 }
 
-.content-center {
-  align-content: center;
-}
-
 .items-center {
   align-items: center;
 }
@@ -635,11 +631,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'https\:\/\/tesla-cdn\.thron\.com\/delivery\/public\/image\/tesla\/e90a341e-f9ca-4aa1-8eab-94afea118786\/bvlatuR\/std\/2880x1800\/M3-Homepage-D\'\)\] {
@@ -739,13 +730,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @font-face {
-  font-family: "Gotham Book";
+  font-family: 'Gotham Book';
 
-  src: url("../public/GothamBook.ttf");
+  src: url('../public/GothamBook.ttf');
 }
 
-*{
-  font-family: "Gotham Book", sans-serif;
+* {
+  font-family: 'Gotham Book', sans-serif;
 }
 
 .hover\:rounded-full:hover {
